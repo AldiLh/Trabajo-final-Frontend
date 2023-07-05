@@ -9,10 +9,11 @@
 # General
 --------------------------------------------------------------*/
 
+
 body {
-  background: #fff;
-  color: #444;
-  font-family: "Open Sans", sans-serif;
+ 
+    background:#FFFFFF;
+ font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -132,15 +133,32 @@ h6 {
   padding: 20px 0;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+  
 }
+
+
+
 
 #header.header-scrolled,
 #header.header-pages {
   height: 60px;
   padding: 10px 0;
 }
+#header .logo img {
+  padding: 0;
+  margin: 7px 0;
+  max-height: 50px;
+  margin-top:5px ;
+  }
+   
+  #header .logo2 img {
+    padding: 0;
+    margin: 7px 0;
+    max-height: 50px;
+    margin-top:5px ;
+    }
 
-#header .logo h1 {
+/*#header .logo h1 {
   font-size: 36px;
   margin: 0;
   padding: 0;
@@ -165,7 +183,7 @@ h6 {
 .main-pages {
   margin-top: 60px;
 }
-
+*/
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -174,6 +192,7 @@ h6 {
   width: 100%;
   position: relative;
   background: url("../img/intro-bg.png") center bottom no-repeat;
+  background:linear-gradient(80deg, #E71964, #50535c,#FFFFFF);
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -266,7 +285,7 @@ h6 {
   color: #004289;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
@@ -278,7 +297,7 @@ h6 {
   text-decoration: none;
 }
 
-.main-nav .drop-down ul {
+/*.main-nav .drop-down ul {
   display: block;
   position: absolute;
   left: 0;
@@ -290,7 +309,7 @@ h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
-}
+} 
 
 .main-nav .drop-down:hover > ul {
   opacity: 1;
@@ -476,6 +495,7 @@ h6 {
 
 .section-bg {
   background: #ecf5ff;
+  
 }
 
 /* About Us Section
@@ -491,8 +511,8 @@ h6 {
 }
 
 #about .about-container .content {
-  background: #fff;
-}
+  background: #fff; 
+} 
 
 #about .about-container .title {
   color: #333;
@@ -587,6 +607,7 @@ h6 {
 #services {
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  background-color: #E8D3EA;
 }
 
 #services .box {
@@ -865,7 +886,7 @@ h6 {
 /* Testimonials Section
 --------------------------------*/
 
-#testimonials {
+/* #testimonials {
   padding: 60px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -1010,7 +1031,7 @@ h6 {
 /* Clients Section
 --------------------------------*/
 
-#clients {
+/*#clients {
   padding: 60px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -1185,14 +1206,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background:  #E71964;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: linear-gradient #DF0174;
   padding: 60px 0 30px 0;
 }
 
