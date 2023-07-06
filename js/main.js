@@ -119,5 +119,10 @@
     items: 1
   });
 
+  //form//
+  
+  document.getElementById("submit").onclick = function(){
+    alert("Tu mensaje ha sido enviado. ¡Gracias!");
+}
 })(jQuery);
 
